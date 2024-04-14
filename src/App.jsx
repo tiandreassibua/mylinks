@@ -14,7 +14,7 @@ const App = () => {
                     <div>
                         <img
                             className="rounded-full border-2 border-[#292929] hover:scale-105 transition-all"
-                            src="https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/72f19146c1196d000e7fe9847f576414~c5_100x100.jpeg?lk3s=a5d48078&x-expires=1712966400&x-signature=YmeE99UjVnasOID0cg3ao2D7fJw%3D"
+                            src="/pp1.jpeg"
                             alt="profile-picture"
                         />
                     </div>
