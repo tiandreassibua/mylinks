@@ -25,7 +25,7 @@ const App = () => {
                 <div className="max-w-md mx-auto px-5 w-full flex flex-col space-y-5">
                     <h5 className="text-center">My Links</h5>
                     <a
-                        href="https://www.youtube.com/@andreassibua9946"
+                        href="https://saweria.co/andreassibua"
                         className="flex justify-between items-center border-2 rounded-full py-4 px-6 border-[#292929] hover:scale-105 transition-all"
                         title="Saweria"
                     >
