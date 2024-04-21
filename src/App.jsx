@@ -55,7 +55,7 @@ const App = () => {
                         <FaArrowRight />
                     </a>
                     <a
-                        href="https://discord.gg/JxxykBRe"
+                        href="https://discord.gg/YHkvZS73"
                         className="flex gap-x-2 justify-between items-center border-2 rounded-full py-4 px-6 border-[#292929] hover:scale-105 transition-all"
                         title="Discord Garuda Breakpoint Indonesia"
                     >
