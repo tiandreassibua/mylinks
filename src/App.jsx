@@ -8,7 +8,7 @@ import {
 
 const App = () => {
     return (
-        <div className="w-full min-h-screen md:flex md:justify-center md:items-center">
+        <div className="w-full min-h-screen md:flex md:justify-center">
             <div className="max-w-md mx-auto">
                 <header className="flex flex-col items-center pt-5">
                     <div>
@@ -22,8 +22,8 @@ const App = () => {
                     <p>Halo guyss, sehat selalu have fun...</p>
                 </header>
                 <hr className="my-5" />
+                <h5 className="text-center mb-5">My Links</h5>
                 <div className="max-w-md mx-auto px-5 w-full flex flex-col space-y-5">
-                    <h5 className="text-center">My Links</h5>
                     <a
                         href="https://saweria.co/andreassibua"
                         className="flex justify-between items-center border-2 rounded-full py-4 px-6 border-[#292929] hover:scale-105 transition-all"
@@ -48,21 +48,32 @@ const App = () => {
                     >
                         <div className="flex items-center">
                             <FaYoutube size={25} className="text-red-500" />
-                            <span className="ml-2 font-semibold">
-                                Andreas Sibua
-                            </span>
+                            <span className="ml-2 font-semibold">Ndrew</span>
                         </div>
                         <FaArrowRight />
                     </a>
                     <a
-                        href="https://discord.gg/YHkvZS73"
+                        href="https://discord.gg/CkcG3qKSMu"
                         className="flex gap-x-2 justify-between items-center border-2 rounded-full py-4 px-6 border-[#292929] hover:scale-105 transition-all"
-                        title="Discord Garuda Breakpoint Indonesia"
+                        title="Garuda Breakpoint Indonesia"
                     >
                         <div className="flex items-center">
                             <FaDiscord size={25} className="text-[#5865F2]" />
                             <span className="ml-2 font-semibold">
                                 Garuda Breakpoint Indonesia
+                            </span>
+                        </div>
+                        <FaArrowRight />
+                    </a>
+                    <a
+                        href="https://discord.gg/R6uvNJk6sz"
+                        className="flex gap-x-2 justify-between items-center border-2 rounded-full py-4 px-6 border-[#292929] hover:scale-105 transition-all"
+                        title="Family GRB Indonesia"
+                    >
+                        <div className="flex items-center">
+                            <FaDiscord size={25} className="text-[#5865F2]" />
+                            <span className="ml-2 font-semibold">
+                                Family GRB Indonesia
                             </span>
                         </div>
                         <FaArrowRight />
