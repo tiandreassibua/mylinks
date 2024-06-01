@@ -36,7 +36,24 @@ const App = () => {
                                 className="w-8"
                             />
                             <span className="ml-2 font-semibold">
-                                Donasi sedekah
+                                Saweria | Donasi sedekah
+                            </span>
+                        </div>
+                        <FaArrowRight />
+                    </a>
+                    <a
+                        href="https://sociabuzz.com/pace_ndrew/tribe"
+                        className="flex justify-between items-center border-2 rounded-full py-4 px-6 border-[#292929] hover:scale-105 transition-all"
+                        title="Saweria"
+                    >
+                        <div className="flex items-center">
+                            <img
+                                src="sociabuzz.png"
+                                alt="saweria"
+                                className="w-8"
+                            />
+                            <span className="ml-2 font-semibold">
+                                SociaBuzz | Donasi sedekah
                             </span>
                         </div>
                         <FaArrowRight />
@@ -61,19 +78,6 @@ const App = () => {
                             <FaDiscord size={25} className="text-[#5865F2]" />
                             <span className="ml-2 font-semibold">
                                 Garuda Breakpoint Indonesia
-                            </span>
-                        </div>
-                        <FaArrowRight />
-                    </a>
-                    <a
-                        href="https://discord.gg/R6uvNJk6sz"
-                        className="flex gap-x-2 justify-between items-center border-2 rounded-full py-4 px-6 border-[#292929] hover:scale-105 transition-all"
-                        title="Family GRB Indonesia"
-                    >
-                        <div className="flex items-center">
-                            <FaDiscord size={25} className="text-[#5865F2]" />
-                            <span className="ml-2 font-semibold">
-                                Family GRB Indonesia
                             </span>
                         </div>
                         <FaArrowRight />
