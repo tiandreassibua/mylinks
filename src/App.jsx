@@ -33,7 +33,7 @@ const App = () => {
                         <div className="flex items-center">
                             <img
                                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPqTe35ip0ChIr7DhQ4Cg2CpWPmGaAvh75Vi2C5GkE1Q&s"
-                                alt="saweria"
+                                alt="saweria link"
                                 className="w-8"
                             />
                             <span className="ml-2 font-semibold">
