@@ -18,14 +18,15 @@ const App = () => {
                             alt="profile-picture"
                         />
                     </div>
-                    <h1 className="mt-3 text-xl font-bold">andreassibua</h1>
+                    <h1 className="mt-3 text-xl font-bold">Andreas Sibua</h1>
                     <p>Halo guyss, sehat selalu have fun...</p>
                 </header>
                 <hr className="my-5" />
-                <h5 className="text-center mb-5">My Links</h5>
+                <h5 className="text-center mb-5 text-xl font-bold">My Links</h5>
                 <div className="max-w-md mx-auto px-5 w-full flex flex-col space-y-5">
                     <a
                         href="https://saweria.co/andreassibua"
+                        target="_blank"
                         className="flex justify-between items-center border-2 rounded-full py-4 px-6 border-[#292929] hover:scale-105 transition-all"
                         title="Saweria"
                     >
@@ -36,14 +37,15 @@ const App = () => {
                                 className="w-8"
                             />
                             <span className="ml-2 font-semibold">
-                                Saweria | Donasi sedekah
+                                Saweria
                             </span>
                         </div>
                         <FaArrowRight />
                     </a>
                     <a
                         href="https://sociabuzz.com/pace_ndrew/tribe"
-                        className="flex justify-between items-center border-2 rounded-full py-4 px-6 border-[#292929] hover:scale-105 transition-all"
+                        target="_blank"
+                        className="flex justify-between items-center border-2 rounded-full py-3 px-6 border-[#292929] hover:scale-105 transition-all"
                         title="Saweria"
                     >
                         <div className="flex items-center">
@@ -53,13 +55,14 @@ const App = () => {
                                 className="w-8"
                             />
                             <span className="ml-2 font-semibold">
-                                SociaBuzz | Donasi sedekah
+                                SociaBuzz
                             </span>
                         </div>
                         <FaArrowRight />
                     </a>
                     <a
-                        href="https://www.youtube.com/@andreassibua9946"
+                        href="https://youtube.com/@pace_ndrew?si=q22BJKM5iK9BjwoP"
+                        target="_blank"
                         className="flex justify-between items-center border-2 rounded-full py-4 px-6 border-[#292929] hover:scale-105 transition-all"
                         title="Youtube Channel"
                     >
@@ -71,6 +74,7 @@ const App = () => {
                     </a>
                     <a
                         href="https://discord.gg/CkcG3qKSMu"
+                        target="_blank"
                         className="flex gap-x-2 justify-between items-center border-2 rounded-full py-4 px-6 border-[#292929] hover:scale-105 transition-all"
                         title="Garuda Breakpoint Indonesia"
                     >
@@ -84,19 +88,21 @@ const App = () => {
                     </a>
                     <a
                         href="https://www.youtube.com/@andreassibua9946"
+                        target="_blank"
                         className="flex gap-x-2 justify-between items-center border-2 rounded-full py-4 px-6 border-[#292929] hover:scale-105 transition-all"
                         title="My Github"
                     >
                         <div className="flex items-center">
                             <FaGithub size={25} className="text-[#24292e]" />
                             <span className="ml-2 font-semibold">
-                                tiandreassibua
+                                Github
                             </span>
                         </div>
                         <FaArrowRight />
                     </a>
                     <a
                         href="https://www.linkedin.com/in/andreas-sibua"
+                        target="_blank"
                         className="flex gap-x-2 justify-between items-center border-2 rounded-full py-4 px-6 border-[#292929] hover:scale-105 transition-all"
                         title="LinkedIn"
                     >
@@ -110,6 +116,7 @@ const App = () => {
                     </a>
                     <a
                         href="https://www.youtube.com/@andreassibua9946"
+                        target="_blank"
                         className="flex gap-x-2 justify-between items-center border-2 rounded-full py-4 px-6 border-[#292929] hover:scale-105 transition-all"
                         title="Instagram"
                     >
@@ -120,7 +127,7 @@ const App = () => {
                                 className="w-6"
                             />
                             <span className="ml-2 font-semibold">
-                                @andreassibua_
+                                Instagram
                             </span>
                         </div>
                         <FaArrowRight />
