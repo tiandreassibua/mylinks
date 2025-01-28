@@ -24,7 +24,7 @@ const App = () => {
                 <hr className="my-5" />
                 <h5 className="text-center mb-5 text-xl font-bold">My Links</h5>
                 <div className="max-w-md mx-auto px-5 w-full flex flex-col space-y-5">
-                    <a
+                    {/* <a
                         href="https://saweria.co/andreassibua"
                         target="_blank"
                         className="flex justify-between items-center border-2 rounded-full py-4 px-6 border-[#292929] hover:scale-105 transition-all"
@@ -41,7 +41,7 @@ const App = () => {
                             </span>
                         </div>
                         <FaArrowRight />
-                    </a>
+                    </a> */}
                     <a
                         href="https://sociabuzz.com/pace_ndrew/tribe"
                         target="_blank"
@@ -55,7 +55,7 @@ const App = () => {
                                 className="w-8"
                             />
                             <span className="ml-2 font-semibold">
-                                SociaBuzz
+                                Donasi Di sini {"->"} SociaBuzz
                             </span>
                         </div>
                         <FaArrowRight />
